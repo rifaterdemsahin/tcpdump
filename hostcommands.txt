@@ -11,7 +11,9 @@ dnf clean all
 dnf makecache
 
 
-tcpdump -i eth0 -w /host/var/tmp/mydebug.pcap
+tcpdump -i 42 -w /host/var/tmp/mydebug.pcap
+
+oc debug node/crc -- bash -c 'cat /host/var/tmp/mydebug.pcap' > /tmp/mydebug.pcap
 
 
 chroot /host
