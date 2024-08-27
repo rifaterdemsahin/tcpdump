@@ -1,0 +1,4 @@
+- install bigger size apps to crc
+crc config set disk-size 160
+- turn it on every time
+crc setup
