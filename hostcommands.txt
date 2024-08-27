@@ -1,3 +1,4 @@
+vi /etc/yum.repos.d/custom.repo
 
 echo 'subscription-manager register --username rifaterdemsahin --password XXX' > register.sh && chmod +x register.sh && ./register.sh
 
@@ -10,5 +11,8 @@ dnf clean all
 dnf makecache
 
 
+tcpdump -i eth0 -w /host/var/tmp/mydebug.pcap
+
+
 chroot /host
-vi /etc/yum.repos.d/custom.repo
+
