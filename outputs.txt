@@ -1,0 +1,8 @@
+sh-5.1# cat /sys/class/net/eth0/iflink
+42
+sh-5.1# f
+
+
+
+NAME                         READY   STATUS    RESTARTS   AGE   IP            NODE   NOMINATED NODE   READINESS GATES
+apiserver-78b65dc65c-x2qcl   2/2     Running   2          27d   10.217.0.27   crc    <none>           <none>
