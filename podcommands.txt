@@ -1,3 +1,0 @@
-sh-5.1# cat /sys/class/net/eth0/iflink
-42
-sh-5.1# 
