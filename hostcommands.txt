@@ -1,2 +1,4 @@
+subscription-manager repos --list
+echo 'subscription-manager register --username rifaterdemsahin --password XXX' > register.sh && chmod +x register.sh && ./register.sh
 chroot /host
 vi /etc/yum.repos.d/custom.repo
