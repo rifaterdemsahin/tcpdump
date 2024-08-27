@@ -1,8 +1,24 @@
+PS C:\Users\Pexabo> oc login --token=sha256~c_16-c5EjWnqZNOlTWhpte9ce6oMBd54lvwXMrnrKdg --server=https://api.crc.testing:6443
+Logged into "https://api.crc.testing:6443" as "kubeadmin" using the token provided.
+
+You have access to 68 projects, the list has been suppressed. You can list all projects with 'oc projects'
+
+Using project "default".
+---------------------------------------------------------------
 sh-5.1# cat /sys/class/net/eth0/iflink
 42
 sh-5.1# f
 
+---------------------------------------------------------------
 
 
 NAME                         READY   STATUS    RESTARTS   AGE   IP            NODE   NOMINATED NODE   READINESS GATES
 apiserver-78b65dc65c-x2qcl   2/2     Running   2          27d   10.217.0.27   crc    <none>           <none>
+
+---------------------------------------------------------------
+PS C:\Users\Pexabo> oc get nodes
+NAME   STATUS   ROLES                         AGE   VERSION
+crc    Ready    control-plane,master,worker   28d   v1.29.6+aba1e8d
+PS C:\Users\Pexabo>
+
+---------------------------------------------------------------
