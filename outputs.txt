@@ -22,3 +22,10 @@ crc    Ready    control-plane,master,worker   28d   v1.29.6+aba1e8d
 PS C:\Users\Pexabo>
 
 ---------------------------------------------------------------
+PS C:\Users\Pexabo>    oc debug node/crc
+Starting pod/crc-debug-d2889 ...
+To use host binaries, run `chroot /host`
+Pod IP: 192.168.126.11
+If you don't see a command prompt, try pressing enter.
+sh-5.1#
+---------------------------------------------------------------
