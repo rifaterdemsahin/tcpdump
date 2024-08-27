@@ -29,3 +29,7 @@ Pod IP: 192.168.126.11
 If you don't see a command prompt, try pressing enter.
 sh-5.1#
 ---------------------------------------------------------------
+
+sh-5.1#    which tcpdump
+/usr/sbin/tcpdump
+---------------------------------------------------------------
