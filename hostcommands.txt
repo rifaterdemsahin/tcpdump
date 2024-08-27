@@ -1,0 +1,2 @@
+chroot /host
+vi /etc/yum.repos.d/custom.repo
