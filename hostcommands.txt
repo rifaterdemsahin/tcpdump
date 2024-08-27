@@ -1,4 +1,14 @@
-subscription-manager repos --list
+
 echo 'subscription-manager register --username rifaterdemsahin --password XXX' > register.sh && chmod +x register.sh && ./register.sh
+
+subscription-manager repos --list
+subscription-manager repos --enable=rhel-9-for-x86_64-baseos-rpms
+subscription-manager repos --enable=rhel-9-for-x86_64-appstream-rpms
+
+dnf update ca-certificates
+dnf clean all
+dnf makecache
+
+
 chroot /host
 vi /etc/yum.repos.d/custom.repo
