@@ -30,6 +30,11 @@ If you are setting up a local installation on CodeReady Containers (CRC) for Ope
    crc setup
    ```
 
+- **install bigger size apps to crc**
+   ```bash
+   crc config set disk-size 160
+   ```
+
    - **Start CRC:**
    
    Make sure you have a valid pull secret from Red Hat. You can download it from your [Red Hat account](https://cloud.redhat.com/openshift/install/crc/installer-provisioned).
