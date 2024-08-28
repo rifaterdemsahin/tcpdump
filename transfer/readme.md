@@ -1,4 +1,10 @@
 GitHub handles image storage in Markdown (`.md`) files by either embedding images directly from a URL or storing the images within the repository itself. Here's how GitHub manages images in Markdown files:
+![image](https://github.com/user-attachments/assets/f4f1dfe4-5966-4e43-8230-9902e07065d9)
+
+Screenshots into user attachments
+![image](https://github.com/user-attachments/assets/b2547da7-a752-4604-a243-30f941eaf885)
+
+
 
 ### 1. Embedding Images from a URL
 
