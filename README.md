@@ -1,5 +1,5 @@
-https://rifaterdemsahin.com/2024/08/27/how-to-capture-network-traffic-on-a-kubernetes-cluster-node-with-tcpdump/
 
+![Process Diagrams](https://github.com/user-attachments/assets/ced81aca-9336-4f1f-b0e3-db61099ac9e1)
 # README: Capturing Network Traffic on a Kubernetes Cluster Node Using TCPDump
 
 When managing a Kubernetes cluster, diagnosing network issues or analyzing traffic patterns is essential. One powerful tool for this task is `tcpdump`, a command-line packet analyzer invaluable for troubleshooting network issues. This guide walks you through a proof of concept for capturing network traffic on a Kubernetes cluster node using `tcpdump` and pulling the capture files back to a jump host for further analysis.
@@ -83,6 +83,12 @@ Happy troubleshooting!
 
 - [Red Hat CodeReady Containers Documentation](https://docs.redhat.com/en/documentation/red_hat_codeready_containers/1.15/html/getting_started_guide/using-codeready-containers_gsg#deploying-sample-application-with-odo_gsg)
 - [CloudShark](https://www.cloudshark.org/captures)
+
+
+## Research
+- https://rifaterdemsahin.com/2024/08/27/how-to-capture-network-traffic-on-a-kubernetes-cluster-node-with-tcpdump/
+
+  
 
 ---
 
